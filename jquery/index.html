@@ -12,9 +12,12 @@
     <h1 class="title is-2 has-text-centered mt-3">Eu sou um texto</h1>
     <a  id="sumir" class="button is-primary">Aperta para o texto sumir</a>
     <script>
-        $("#sumir").click(function(){
+              
+        teste = function(){
             $("h1").slideToggle("slow")
-        })
+        }
+
+        $("#sumir").click(teste())
     </script>
 </body>
 </html>
